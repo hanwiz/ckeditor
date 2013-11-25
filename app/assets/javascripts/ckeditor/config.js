@@ -90,6 +90,11 @@ CKEDITOR.editorConfig = function( config )
     }
   });
   
+  // spell checker
+  // enable native spell checker
+  config.disableNativeSpellChecker = true;
+  config.scayt_autoStartup = true;
+
   /* Extra plugins */
   // works only with en, ru, uk locales
   config.extraPlugins = "embed,attachment";
